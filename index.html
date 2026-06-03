@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IPL Scoreboard Analyzer</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🏏 IPL Scoreboard Analyzer</h1>
+
+    <p class="subtitle">
+        Enter runs scored in each over
+    </p>
+
+    <textarea
+        id="oversInput"
+        placeholder="Example:
+6,12,8,14,9,10,7,5,11,13,8,10,15,9,12,18,20,16,14,22"></textarea>
+
+    <button onclick="analyzeMatch()">
+        Analyze Match 🚀
+    </button>
+
+    <div id="results"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
